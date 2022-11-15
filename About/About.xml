@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>[1001] Unofficial Vanilla Outposts Expanded Expanded: Trading (Continued)</name>
+    <author>Clown Cat (original) &amp; papercrane1001 (current)</author>
+    <packageId>papercrane1001.UVOEE.Trading</packageId>
+	<url>https://github.com/spessbro/UVOEE_Trading</url>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+
+    <description>Lets the trading outpost actually trade out things that are there every quadrum
+	
+	Link to original: https://steamcommunity.com/sharedfiles/filedetails/?id=2806617614
+	
+	If Clown Cat updates, I will delete this, as I really didn't do much of anything.  
+	
+	Like my mod?  Donate at:
+	https://ko-fi.com/papercrane1001
+	
+	I use the MIT license: https://opensource.org/licenses/MIT
+	which mostly says that if you use my code, please give me credit.  
+	
+	GitHub at: Link pending release
+	
+	\n\nVersion 2.0.1
+	\nFor version 1.4.
+	
+	</description>
+
+    <modDependencies>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework/releases/latest</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>vanillaexpanded.outposts</packageId>
+            <displayName>Vanilla Outposts Expanded</displayName>
+            <downloadUrl>https://github.com/legodude17/VanillaOutpostsExpanded</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2688941031</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+
+    <loadAfter>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>vanillaexpanded.outpost</li>
+    </loadAfter>
+</ModMetaData>
