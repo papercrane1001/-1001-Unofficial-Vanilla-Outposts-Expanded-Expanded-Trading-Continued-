@@ -3,7 +3,7 @@
 	<Operation Class="PatchOperationAdd">
     	<xpath>/Defs/WorldObjectDef[defName="Outpost_Trading"]</xpath>
     	<value>
-    		<worldObjectClass>UVOEE_Trading.Trading_Outpost</worldObjectClass>
+    		<worldObjectClass>UVOEE_Trading.My_Trading_Outpost</worldObjectClass>
     	</value>
 	</Operation>
 </Patch>
