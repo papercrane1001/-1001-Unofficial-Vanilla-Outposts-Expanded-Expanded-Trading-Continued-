@@ -9,7 +9,8 @@ using Verse;
 
 
 namespace UVOEE_Trading{
-	public class Trading_Outpost : Outpost{
+	public class My_Trading_Outpost : Outpost
+	{
 		public override void Produce(){
 			base.Produce();
 			List<Thing> Sellables = Things.Where(t => t.def != ThingDefOf.Silver && (t.def.tradeability ==Tradeability.Sellable || t.def.tradeability ==Tradeability.All)).ToList();
